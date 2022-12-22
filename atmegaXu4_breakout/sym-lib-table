@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "atmegaXu4_breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/atmegaXu4_breakout-rescue.lib")(options "")(descr ""))
+)
