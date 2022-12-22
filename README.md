@@ -1,6 +1,10 @@
-# atmegaXu4 breakout board
+# ATmega32u4 Breakout Board
 [![CC by SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-This board is a breakout for the atmegaXu4 chip by Atmel. It has a USB Type C connector to supply a USB Full Speed connection to a host PC, 5v to 3.3v LDO, and 3 LEDS for power and status indication. The 6 pin header provides an AVR ISP programming connection via SPI.
+The ATmega32u4 breakout board makes it easy to get up and going with an AVR Microcontroller with plenty of IO features such as SPI, TWI, and UART as well as a Full-Speed USB interface. Standard pitch spacing on the headers allow it to be inserted into a breadboard and used for prototyping or through-hole soldered down onto a larger project/carrier board.
 
-![alt text](images/3d-image.jpg)
+The getting started guide, hardware documentation and example firwmare for this board is available at [greatlakesdev.io/docs](https://greatlakesdev.io/docs). If you'd like to build one yourself, the latest Gerber files and schematics can be found in the [Release](https://github.com/greatlakesdev/atmega32u4_breakout/releases) section on Github.
+
+![3d photo of the atmega32u4 breakout board](img/3d.png)
+
+
