@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "atmegaXu4_breakout")
+    (title "atmega32u4_breakout")
     (date "2022-12-22")
     (rev "rev B")
     (company "great lakes dev")
