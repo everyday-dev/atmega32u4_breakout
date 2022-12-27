@@ -33,3 +33,4 @@ gerbers/
 *.step
 *.STEP
 *.kicad_prl
+!models/*.STEP
