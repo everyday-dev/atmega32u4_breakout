@@ -29,3 +29,7 @@ gerbers/
 *.pdf
 *-backups/
 *.zip
+*.xls*
+*.step
+*.STEP
+*.kicad_prl

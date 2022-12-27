@@ -126,7 +126,8 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.15
       ],
       "via_dimensions": [
         {
@@ -447,7 +448,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../atmegaXu4_breakout.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
