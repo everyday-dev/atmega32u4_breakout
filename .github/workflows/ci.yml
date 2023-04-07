@@ -9,7 +9,7 @@ on:
     # branches: [ main, dev ]
 
 env:
-  PROJECT_NAME: "breadboard-io"
+  PROJECT_NAME: "atmegaXu4_breakout"
   CLI_TOOL: "kicad-cli-nightly"
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
 
     - name: Generate Netlist
       run: |
-        ${{env.CLI_TOOL}} sch export netlist --format kicadxml ./breadboard-io/breadboard-io.kicad_sch
+        ${{env.CLI_TOOL}} sch export netlist --format kicadxml ${{env.PROJECT_NAME}}/${{env.PROJECT_NAME}}.kicad_sch
 
     - name: Retrieve project revision
       run: |
